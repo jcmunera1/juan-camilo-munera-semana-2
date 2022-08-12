@@ -1,20 +1,30 @@
+body{
+  background-color: black;
+}
 header{
+  color: white;
   margin-bottom: 40px;
 }
 section{
+  color: white;
   width: 100%;
-
+  height: 120%;
   display:flex;
   flex-direction: row;
 }
 aside{
   width: 25%;
+  height: 102%;
+  
 }
 .imgProfile{
-width: 100%;
+  margin-bottom: 10px;
+  width: 80%;
+  margin-left: 30px;
+  margin-right: auto;
 }
 .aside1{
-
+ 
 }
 .aside2{
 text-align: justify;
@@ -39,30 +49,51 @@ h3{
 p {
   margin-top: 0px;
 }
+footer{
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+}
+.imgFooter{
+  margin-left: auto;
+  margin-right: auto;
+height: auto;
+width: 100%;
+padding-left: 30px;
+padding-right: 30px;
+
+}
 .aside3{
 display: flex;
 flex-direction: column;
-
 }
 .imgTesting{
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   width: 80%;
-margin-right: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.igniteText{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .imgFarm{
   margin-bottom: 10px;
   width: 80%;
-margin-right: auto;
-}
-.imgBongs{
-  margin-bottom: 10px;
-  width: 80%;
-margin-right: auto;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 .aside4{
 
 
 }
 .imgMugshot{
-  width: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
 }
