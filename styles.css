@@ -1,0 +1,68 @@
+header{
+  margin-bottom: 40px;
+}
+section{
+  width: 100%;
+
+  display:flex;
+  flex-direction: row;
+}
+aside{
+  width: 25%;
+}
+.imgProfile{
+width: 100%;
+}
+.aside1{
+
+}
+.aside2{
+text-align: justify;
+margin-right: 10px;
+margin-left: 10px;
+}
+h1{
+  text-align: center;
+  margin: 0px;
+  font-size: 100px;
+}
+h2{
+  text-align: center;
+  margin: 0px;
+  font-size: 30px;
+}
+h3{
+  text-align: center;
+  margin-top: 0px;
+  font-size: 20px;
+}
+p {
+  margin-top: 0px;
+}
+.aside3{
+display: flex;
+flex-direction: column;
+
+}
+.imgTesting{
+  margin-bottom: 10px;
+  width: 80%;
+margin-right: auto;
+}
+.imgFarm{
+  margin-bottom: 10px;
+  width: 80%;
+margin-right: auto;
+}
+.imgBongs{
+  margin-bottom: 10px;
+  width: 80%;
+margin-right: auto;
+}
+.aside4{
+
+
+}
+.imgMugshot{
+  width: 100%;
+}
