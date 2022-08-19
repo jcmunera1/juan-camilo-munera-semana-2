@@ -1,11 +1,14 @@
 body{
+  font-family: 'Roboto';
   background-color: black;
 }
 header{
+  font-family: 'Roboto';
   color: white;
   margin-bottom: 40px;
 }
 section{
+  font-family: 'Roboto';
   color: white;
   width: 100%;
   height: 120%;
@@ -13,9 +16,12 @@ section{
   flex-direction: row;
 }
 aside{
+  font-family: 'Roboto';
   width: 25%;
   height: 102%;
-  
+}
+h2{
+  color: white;
 }
 .imgProfile{
   margin-bottom: 10px;
@@ -84,6 +90,7 @@ flex-direction: column;
   margin-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  text-align: justify;
 }
 .imgFarm{
   margin-bottom: 10px;
@@ -108,7 +115,24 @@ a{
 .social{
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
+}
+.container-posts{
+  color: white;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height:fit-content ;
 
+}
+.twitter-tweet{
+  padding-top: 50px;
+}
+.social-div{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
 }
 
